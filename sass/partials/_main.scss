@@ -1,0 +1,25 @@
+body {
+  background: white;
+  margin: 0;
+
+  > .container {
+    margin: .7em;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  body {
+    > .container {
+      margin: 1.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    > .container {
+      margin: 1.5em auto;
+      max-width: 1200px;
+    }
+  }
+}

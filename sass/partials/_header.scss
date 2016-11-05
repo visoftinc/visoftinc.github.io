@@ -1,0 +1,76 @@
+.header {
+  margin-bottom: 1em;
+
+  header {
+    text-align: center;
+
+    .logo {
+      width: 175px;
+    }
+
+    p {
+      font-size: .7em;
+      margin-top: -1.1em;
+    }
+  }
+
+  .nav-bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+
+
+  .search-form {
+    height: 37px;
+    margin: 0 auto;
+    max-width: 420px;
+    position: relative;
+
+
+    .text-wrapper {
+      left: 0;
+      position: absolute;
+      right: 82px;
+
+      input {
+        border-radius: 5px 0 0 5px;
+      }
+    }
+
+    button {
+      border-radius: 0 5px 5px 0;
+      padding: .63em .85em;
+      position: absolute;
+      right: 0;
+    }
+
+  }
+}
+
+@media screen and (min-width: 736px) {
+  .header {
+    @include clearfix;
+
+    header {
+      float: left;
+    }
+
+    .nav-bar {
+      align-items: right;
+      justify-content: flex-end;
+    }
+
+    .search-form {
+      margin-right: 0;
+      margin-top: 2em;
+    }
+  }
+}
