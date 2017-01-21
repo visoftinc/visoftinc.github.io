@@ -1,7 +1,13 @@
-@import 'vendor/bourbon/bourbon'; // Mixin heaven
-@import 'vendor/neat/neat';       // Responsive grid
-@import 'vendor/bitters/base';    // Base styles
-@import 'vendor/refills/refills'; // Components
+@import '../bower_components/normalize-scss/sass/normalize';    // Normalize.css
+@import 'vendor/bourbon/bourbon';                               // Mixin heaven
+@import 'vendor/neat/neat';                                     // Responsive grid
+@import 'vendor/bitters/base';                                  // Base styles
+@import 'vendor/refills/refills';                               // Components
+@import 'vendor/fontawesome/font-awesome';                      // Font Awesome!
+@import '../bower_components/slick-carousel/slick/slick.scss';  // Slick Carousel
 
+@import 'partials/variables';
 @import 'partials/main';
+@import 'partials/welcome';
 @import 'partials/header';
+@import 'partials/section-about';

@@ -1,0 +1,96 @@
+.welcome {
+  height: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  .bg01, .bg02, .bg03, .bg04, .bg05, .bg06 {
+    background-size: cover !important;
+    height: 100%;
+  }
+
+  .backgrounds {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    overflow: hidden;
+
+    .slick-list {
+      height: 100%;
+    }
+
+    .slick-track {
+      height: 100%
+    }
+  }
+
+  .bg01 {
+    background: url(https://images.visoftinc.com/home/home_bg01.jpg) no-repeat center center;
+  }
+  .bg02 {
+    background: url(https://images.visoftinc.com/home/home_bg02.jpg) no-repeat center center;
+  }
+  .bg03 {
+    background: url(https://images.visoftinc.com/home/home_bg03.jpg) no-repeat center center;
+  }
+  .bg04 {
+    background: url(https://images.visoftinc.com/home/home_bg04.jpg) no-repeat center center;
+  }
+  .bg05 {
+    background: url(https://images.visoftinc.com/home/home_bg05.jpg) no-repeat center center;
+  }
+  .bg06 {
+    background: url(https://images.visoftinc.com/home/home_bg06.jpg) no-repeat center center;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 275px;
+    z-index: 10;
+  }
+
+  .tagline {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: -20px;
+
+
+    strong {
+      color: $maroon;
+    }
+  }
+
+  #whatwedo {
+    margin: 2em 0 0;
+
+    h2 {
+      color: $maroon;
+      font-size: 1.25em;
+      margin: 0
+    }
+
+    .vslider {
+      overflow: hidden;
+
+      .slick-slide {
+        color: $dark-blue;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+    }
+  }
+
+  #learnmore {
+    p {
+      font-weight: bold;
+      margin: 2em 0 0;
+    }
+
+    i {
+      margin-top: -1em;
+    }
+  }
+}

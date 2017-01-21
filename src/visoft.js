@@ -14,3 +14,25 @@ $(function() {
   });
 });
 
+// "What We Do" Carousel
+$(function() {
+  $('#whatwedo .vslider').slick({
+    autoplay: true,
+    arrows: false,
+    infinite: true,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    vertical: true
+  });
+});
+
+// "Welcome" Carousel
+$(function() {
+  $('.welcome .backgrounds').slick({
+    autoplay: true,
+    arrows: false,
+    infinite: true,
+    pauseOnFocus: false,
+    pauseOnHover: false
+  });
+});

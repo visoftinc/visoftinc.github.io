@@ -1,0 +1,13 @@
+$body-background: #fff;
+$dark-blue: #002D5B;
+$maroon: #5B0000;
+$about-background: #dee0d5;
+
+$first-breakpoint-value: 400px;
+$second-breakpoint-value: 735px;
+$third-breakpoint-value: 1023px;
+
+
+$small-screen: new-breakpoint(max-width em($first-breakpoint-value) 1);
+$medium-screen: new-breakpoint(min-width em($second-breakpoint-value) max-width em($third-breakpoint-value) 8);
+$large-screen: new-breakpoint(min-width em($third-breakpoint-value) 12);

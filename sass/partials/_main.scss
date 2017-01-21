@@ -1,25 +1,30 @@
+html,
 body {
-  background: white;
+  height: 100%;
   margin: 0;
-
-  > .container {
-    margin: .7em;
-  }
+  padding: 0;
+  width: 100%;
 }
 
-@media screen and (min-width: 414px) {
-  body {
-    > .container {
-      margin: 1.5em;
-    }
-  }
+#home {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; // This is to stop the fullscreen slick slider from showing the horizontal scrollbar
 }
 
-@media screen and (min-width: 1200px) {
-  body {
-    > .container {
-      margin: 1.5em auto;
-      max-width: 1200px;
-    }
+h1 {
+  display: table;
+  font-size: 2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  &:before, &:after {
+    border-top: 1px solid $maroon;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: .65em;
+    width: 45%;
   }
+  &:before { right: 1.5%; }
+  &:after { left: 1.5%; }
 }
