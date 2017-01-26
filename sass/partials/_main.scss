@@ -8,23 +8,12 @@ body {
 
 #home {
   height: 100%;
-  width: 100%;
-  overflow-x: hidden; // This is to stop the fullscreen slick slider from showing the horizontal scrollbar
 }
 
 h1 {
-  display: table;
   font-size: 2em;
+  text-align: center;
   text-transform: uppercase;
+  margin: 0 auto;
   white-space: nowrap;
-  &:before, &:after {
-    border-top: 1px solid $maroon;
-    content: '';
-    display: table-cell;
-    position: relative;
-    top: .65em;
-    width: 45%;
-  }
-  &:before { right: 1.5%; }
-  &:after { left: 1.5%; }
 }

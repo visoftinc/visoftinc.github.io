@@ -1,26 +1,18 @@
 .welcome {
   height: 100%;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 
   .bg01, .bg02, .bg03, .bg04, .bg05, .bg06 {
     background-size: cover !important;
     height: 100%;
+    width: 100%;
   }
 
   .backgrounds {
     height: 100%;
-    width: 100%;
-    user-select: none;
-    overflow: hidden;
 
-    .slick-list {
+    .slick-list, .slick-track {
       height: 100%;
-    }
-
-    .slick-track {
-      height: 100%
     }
   }
 

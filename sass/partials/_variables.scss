@@ -1,13 +1,15 @@
 $body-background: #fff;
 $dark-blue: #002D5B;
 $maroon: #5B0000;
-$about-background: #dee0d5;
+$about-background: #EAEBE5;
 
 $first-breakpoint-value: 400px;
 $second-breakpoint-value: 735px;
 $third-breakpoint-value: 1023px;
+$fourth-breakpoint-value: 1365px;
 
 
-$small-screen: new-breakpoint(max-width em($first-breakpoint-value) 1);
-$medium-screen: new-breakpoint(min-width em($second-breakpoint-value) max-width em($third-breakpoint-value) 8);
-$large-screen: new-breakpoint(min-width em($third-breakpoint-value) 12);
+$small-screen: new-breakpoint(max-width $first-breakpoint-value);
+$medium-screen: new-breakpoint(min-width $second-breakpoint-value max-width $third-breakpoint-value);
+$large-screen: new-breakpoint(min-width $third-breakpoint-value max-width $fourth-breakpoint-value);
+$mega-screen: new-breakpoint(min-width $fourth-breakpoint-value);

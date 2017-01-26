@@ -1,5 +1,120 @@
 .section-about {
   background: $about-background;
-  padding: 4em 1em;
+  padding: 4em 0 0;
+  margin-bottom: 4em;
 
+  .container {
+    @include clearfix;
+    margin: 1em;
+
+    @include media($mega-screen) {
+      @include outer-container($fourth-breakpoint-value);
+    }
+  }
+
+  h1 {
+    margin: 0 auto 1em;
+  }
+
+  .about-block {
+    background: $body-background;
+    border-radius: 5px;
+    border: 1px solid darken($about-background, 5%);
+    box-shadow: 0px 0px 5px darken($about-background, 40%);
+    padding: 1em;
+    margin: 1em auto;
+    text-align: center;
+
+    @include media($medium-screen) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+
+    @include media($large-screen) {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+
+    @include media($mega-screen) {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.4em;
+      white-space: nowrap;
+    }
+
+    .fa {
+      font-size: 4.5em;
+      margin: 0 0 .3em;
+    }
+
+    .fa-flag {
+      color: red;
+    }
+
+    .fa-trophy {
+      color: gold;
+    }
+  }
+
+  .about-quote {
+    background: url(https://images.visoftinc.com/home/about_bg.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 5em 3em;
+
+    p {
+      font-size: 1.5em;
+      width: 100%;
+    }
+
+    cite {
+      display: block;
+      font-size: .75em;
+      margin-top: 2em;
+    }
+
+    @include media($medium-screen) {
+      display: table;
+      height: 448px;
+      width: 100%;
+
+      p {
+        display: table-cell;
+        font-size: 2.5em;
+        vertical-align: middle;
+      }
+    }
+
+    @include media($large-screen) {
+      display: table;
+      height: 575px;
+      width: 100%;
+
+      p {
+        display: table-cell;
+        font-size: 3em;
+        vertical-align: middle
+      }
+    }
+
+    @include media($mega-screen) {
+      display: table;
+      height: 1000px;
+      width: 100%;
+
+      p {
+        display: table-cell;
+        font-size: 3.5em;
+        vertical-align: middle
+      }
+    }
+  }
 }
+
+

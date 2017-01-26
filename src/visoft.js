@@ -31,6 +31,8 @@ $(function() {
   $('.welcome .backgrounds').slick({
     autoplay: true,
     arrows: false,
+    dots: false,
+    draggable: false,
     infinite: true,
     pauseOnFocus: false,
     pauseOnHover: false
