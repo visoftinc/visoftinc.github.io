@@ -36,4 +36,12 @@
       right: 0;
     }
   }
+
+  @include media($large-screen) {
+    @include outer-container($second-breakpoint-value);
+  }
+
+  @include media($mega-screen) {
+    @include outer-container($third-breakpoint-value);
+  }
 }
