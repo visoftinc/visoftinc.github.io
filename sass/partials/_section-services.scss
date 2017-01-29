@@ -1,0 +1,68 @@
+.section-services {
+  background: $services-background;
+  padding: 5em 1em;
+  text-align: center;
+
+  h1 {
+    margin: 0 auto .5em;
+  }
+
+  h2 {
+    margin: 0 auto 2em;
+  }
+
+  .container {
+    @include outer-container;
+  }
+}
+
+.service-block {
+  background: $body-background;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  padding: 1.5em .5em;
+
+  @include media($medium-screen) {
+    @include span-columns(6);
+    @include omega(2n);
+    padding: 1.5em;
+  }
+
+  @include media($large-screen) {
+    @include span-columns(3);
+    @include omega(4n);
+    padding: 1.5em 2.2em;
+  }
+
+  @include media($mega-screen) {
+    @include span-columns(3);
+    @include omega(4n);
+    padding: 1.5em;
+  }
+
+  .service-icon {
+    font-size: 3em;
+  }
+
+  p {
+    margin: 1.5em auto;
+  }
+
+  li {
+    border-top: solid 1px $services-background;
+    padding: .5em;
+
+    &:last-child {
+      border-bottom: solid 1px $services-background;
+    }
+  }
+}
+
+.tech-grid {
+  @include outer-container;
+
+  li {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+}

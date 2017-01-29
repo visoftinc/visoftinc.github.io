@@ -2915,6 +2915,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/sass\/partials\/_section-services.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_section-services.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/sass\/partials\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
