@@ -1,4 +1,5 @@
 .section-products {
+  @include outer-container;
   padding: 4em 1em;
 
   h1 {
@@ -51,7 +52,7 @@
     }
   }
 
-  @include media($medium-screen) {
+  @include media($medium-up) {
     @include clearfix;
 
     text-align: left;
@@ -75,6 +76,12 @@
       img {
         margin: 1em auto;
       }
+    }
+  }
+
+  @include media($large-up) {
+    .product-text {
+      padding-bottom: 1em;
     }
   }
 }

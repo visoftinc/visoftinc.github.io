@@ -18,3 +18,6 @@ $mid-screen: new-breakpoint(min-width $first-breakpoint-value max-width $second-
 $medium-screen: new-breakpoint(min-width $second-breakpoint-value max-width $third-breakpoint-value);
 $large-screen: new-breakpoint(min-width $third-breakpoint-value max-width $fourth-breakpoint-value);
 $mega-screen: new-breakpoint(min-width $fourth-breakpoint-value);
+$medium-up: new-breakpoint(min-width $second-breakpoint-value);
+$large-up: new-breakpoint(min-width $third-breakpoint-value);
+$medium-down: new-breakpoint(max-width $second-breakpoint-value);

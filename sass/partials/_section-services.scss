@@ -41,7 +41,13 @@
   }
 
   .service-icon {
-    font-size: 3em;
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-transform: uppercase;
   }
 
   p {
@@ -50,6 +56,7 @@
 
   li {
     border-top: solid 1px $services-background;
+    font-weight: bold;
     padding: .5em;
 
     &:last-child {
@@ -58,11 +65,35 @@
   }
 }
 
+.technologies {
+  @include outer-container;
+
+
+  p {
+    font-size: 1.4em;
+    font-weight: bold;
+
+    &:first-child {
+      background: lighten($services-background, 20);
+      font-size: 1em;
+      font-weight: normal;
+      padding: 1em;
+    }
+  }
+}
+
 .tech-grid {
   @include outer-container;
 
   li {
-    @include span-columns(4);
-    @include omega(3n);
+    @include media($medium-down) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+
+    @include media($medium-up) {
+      @include span-columns(4);
+      @include omega(3n);
+    }
   }
 }
