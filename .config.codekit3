@@ -35,6 +35,160 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/bower_components\/handlebars\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/handlebars\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/handlebars\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/handlebars\/component.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/component.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/handlebars\/composer.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/composer.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars-source.gemspec": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars-source.gemspec",
+		"oF": 0
+		},
+	"\/bower_components\/handlebars\/handlebars.amd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.amd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars.amd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.amd.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars.js.nuspec": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.js.nuspec",
+		"oF": 0
+		},
+	"\/bower_components\/handlebars\/handlebars.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars.runtime.amd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.runtime.amd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars.runtime.amd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.runtime.amd.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars.runtime.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/handlebars\/handlebars.runtime.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/handlebars.runtime.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/handlebars.runtime.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/bower_components\/handlebars\/lib\/handlebars\/source.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/lib\/handlebars\/source.rb",
+		"oF": 0
+		},
+	"\/bower_components\/handlebars\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/handlebars\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/handlebars\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/bower_components\/jquery\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -2025,7 +2179,7 @@
 	"\/bower_components\/slick-carousel\/slick\/slick.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/slick-carousel\/slick\/slick.js",
 		"oF": 0,
 		"sC": 1,
@@ -2051,7 +2205,7 @@
 	"\/bower_components\/slick-carousel\/slick\/slick.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/slick-carousel\/slick\/slick.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -2911,6 +3065,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_section-about.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/sass\/partials\/_section-blog.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_section-blog.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -4189,20 +4356,56 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/scripts\/vendor-min.js": {
+	"\/scripts\/main.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/vendor-min-min.js",
+		"oAP": "\/scripts\/main.min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/scripts\/main.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/main.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 1
 		},
-	"\/scripts\/visoft-min.js": {
+	"\/scripts\/templates.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/scripts\/templates.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/scripts\/vendor.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/scripts\/vendor.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/scripts\/visoft.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/scripts\/visoft.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 1
+		},
+	"\/src\/templates.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/visoft-min-min.js",
+		"oAP": "\/scripts\/templates-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 1
@@ -4211,32 +4414,39 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/vendor-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 1
+		"oAP": "\/scripts\/vendor.min.js",
+		"oF": 3,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/src\/visoft.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/visoft-min.js",
-		"oF": 0,
+		"oAP": "\/scripts\/visoft.min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 1
+		},
+	"\/templates\/blog.handlebars": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/scripts\/templates.min.js",
+		"oF": 3
 		}
 	},
 "hooks": [
+	{
+		"enabled": 1,
+		"name": "Handlebars",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGZWZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1ZcYGJVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RmlsZW5hbWXSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEFpoYW5kbGViYXJz0issTU5fEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo00vMNULUFFSU1RJIyhVWk5TTW9kaWZpZXJXTlNGbGFnc1pOU1Bvc2l0aW9uXk5TT3BlcmF0b3JUeXBlgBIQCdIrLFdYXxAcTlNTdWJzdHJpbmdQcmVkaWNhdGVPcGVyYXRvcqRZWlswXxAcTlNTdWJzdHJpbmdQcmVkaWNhdGVPcGVyYXRvcl8QGU5TU3RyaW5nUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0issXV5fEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjXV8wW05TUHJlZGljYXRl0issQWGiQTDSKyxjZF8QE05TQ29tcG91bmRQcmVkaWNhdGWjY18wXxAPTlNLZXllZEFyY2hpdmVy0WdoVHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBdAHcAiQCQAJIAlACWAJsApgCoAKoArAC1AMkA3ADyAPQA9gD4APoBBQEPAR4BMQE9AT8BQQFDAUUBRwFUAVkBWwFdAWIBbQF2AYkBjQGaAaMBqAGqAawBrgG1Ab8BwQHDAcUB0wHYAfcB+wIAAg8CEwIbAiACNgI7AlICWQJrAm0CbwJxAnwCgQKdAqECrAK3Ar8CygLZAtsC3QLiAwEDBgMlA0EDVwNcA3QDeAOEA4kDjAORA6cDqwO9A8ADxQAAAAAAAAIBAAAAAAAAAGkAAAAAAAAAAAAAAAAAAAPH",
+		"runOrder": 0,
+		"scriptSourceString": "handlebars -m \"$CK_INPUT_PATH\" -f \"$CK_OUTPUT_PATH\" -k each -k if -k unless",
+		"scriptType": 1,
+		"uuidString": "1D1C2D69-759A-4100-9346-C6E76DA6EBE8"
+		}
 	],
 "manualImportLinks": {
-	"\/src\/vendor.js": [
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/slick-carousel\/slick\/slick.min.js",
-			"position": 0,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 499776521,

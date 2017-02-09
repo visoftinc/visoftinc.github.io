@@ -1,0 +1,94 @@
+.section-blog {
+  background: lighten($dark-blue, 40);
+  padding: 4em 1em;
+
+  h1 {
+    margin-bottom: 1.5em;
+  }
+  .container {
+    @include outer-container;
+  }
+  .posts {
+    @include clearfix;
+  }
+  .single-column {
+    text-align: center;
+  }
+}
+
+.blog-post {
+  background: $white;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  padding: 1em;
+  position: relative;
+
+  &:nth-child(even) {
+    &::before {
+      border: 0;
+      border-bottom-width: 20px;
+      border-color: transparent $white;
+      border-right-width: 30px;
+      border-style: solid;
+      bottom: -20px;
+      content: '';
+      display: block;
+      left: 60px;
+      position: absolute;
+      width: 0;
+    }
+
+    &::after {
+      border: 0;
+      border-bottom-width: 20px;
+      border-color: transparent lighten($dark-blue, 40);
+      border-right-width: 10px;
+      border-style: solid;
+      bottom: -20px;
+      content: '';
+      display: block;
+      left: 80px;
+      position: absolute;
+      width: 0;
+    }
+  }
+
+  &:nth-child(odd) {
+    &::before {
+      border: 0;
+      border-bottom-width: 20px;
+      border-color: transparent $white;
+      border-left-width: 30px;
+      border-style: solid;
+      bottom: -20px;
+      content: '';
+      display: block;
+      right: 60px;
+      position: absolute;
+      width: 0;
+    }
+
+    &::after {
+      border: 0;
+      border-bottom-width: 20px;
+      border-color: transparent lighten($dark-blue, 40);
+      border-left-width: 10px;
+      border-style: solid;
+      bottom: -20px;
+      content: '';
+      display: block;
+      right: 80px;
+      position: absolute;
+      width: 0;
+    }
+  }
+
+  p {
+    text-align: right;
+  }
+
+  @include media($medium-up) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+}

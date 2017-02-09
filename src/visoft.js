@@ -38,3 +38,16 @@ $(function() {
     pauseOnHover: false
   });
 });
+
+// Blog Posts
+$.getJSON('http://blogs.visoftinc.com/feeds/feed.json', function(data) {
+  var post, count, $posts;
+  count = 0;
+  $posts = $('#blog .posts');
+  $posts.empty();
+  while ((count += 1) <= 6) {
+    post = data[count - 1];
+    $posts.append(Handlebars.templates.blog(post));
+  }
+});
+

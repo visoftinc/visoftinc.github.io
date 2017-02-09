@@ -34,6 +34,7 @@
   "private": true,
   "dependencies": {
     "normalize-scss": "normalize.scss#^6.0.0",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "handlebars": "^4.0.5"
   }
 }

@@ -17,3 +17,28 @@ h1 {
   margin: 0 auto;
   white-space: nowrap;
 }
+
+.button {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: $white;
+  border-radius: 0;
+  border: 2px solid $gray;
+  box-shadow: none;
+  color: $black;
+  display: inline-block;
+  height: 40px;
+  line-height: 36px;
+  padding: 0 1em;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: linear-gradient(to bottom, $white, $gray);
+    color: $primary-color;
+  }
+}
