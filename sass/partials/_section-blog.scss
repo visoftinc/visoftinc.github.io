@@ -5,12 +5,15 @@
   h1 {
     margin-bottom: 1.5em;
   }
+
   .container {
     @include outer-container;
   }
+
   .posts {
     @include clearfix;
   }
+
   .single-column {
     text-align: center;
   }
